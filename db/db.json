@@ -47,6 +47,12 @@
       "nome": "Usuário Fictício",
       "email": "teste3@teste3.com",
       "senha": "123456"
+    },
+    {
+      "id": "8aef",
+      "nome": "Teste",
+      "email": "maisumteste@teste.com",
+      "senha": "123456"
     }
   ],
   "livros": [

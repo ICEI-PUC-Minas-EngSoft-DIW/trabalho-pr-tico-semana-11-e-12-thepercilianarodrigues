@@ -6,24 +6,25 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Perciliana Rodrigues
+- Matricula: 904963
+- Proposta de projeto escolhida: Pessoas e Produções
+- Breve descrição sobre seu projeto: Esse projeto "Cantinho do Leitor" foi criado com objetivo de ter uma comunidade que conecta pessoas apaixonadas por leitura, e também, trazendo a história de cada autor e suas obras, e notícias de lançamentos em primeira mão.
 
 **Print dos testes da API com Postman ou similar**
 
-<< COLOQUE A IMAGEM GET AQUI >>
+<< ![alt text](<Teste com GET.png>) >>
 
-<< COLOQUE A IMAGEM POST AQUI >>
+<< ![alt text](<Teste com POST.png>) >>
 
-<< COLOQUE A IMAGEM PUT AQUI >>
+<< ![alt text](<Teste com PUT.png>) >>
 
-<< COLOQUE A IMAGEM DELETE AQUI >>
+<< ![alt text](<Teste com DELETE.png>) >>
 
 **Print da aba NETWORK com requisições Fetch/XHR POST e GET**
 
-<<  COLOQUE A IMAGEM AQUI >>
+<< ![alt text](<Teste 1.png>) >>
+<< ![alt text](<Teste 2.png>) >>
 
 ## **Orientações Gerais**
 
