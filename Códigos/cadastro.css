@@ -1,0 +1,81 @@
+        /* Estilos gerais para o corpo da página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Container do formulário */
+        .container-cadastro {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        /* Título do formulário */
+        .container-cadastro h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Grupo de campos (label + input) */
+        .grupo-form {
+            margin-bottom: 1rem;
+        }
+
+        .grupo-form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #555;
+            font-weight: bold;
+        }
+
+        .grupo-form input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box; /* Garante que o padding não afete a largura total */
+        }
+
+        /* Botão de cadastro */
+        .btn-cadastrar {
+            width: 100%;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 4px;
+            background-color: pink;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-cadastrar:hover {
+            background-color: pink;
+        }
+
+        /* Link de login */
+        .link-login {
+            text-align: center;
+            margin-top: 1rem;
+            color: #777;
+        }
+
+        .link-login a {
+            color:blue;
+            text-decoration: none;
+        }
+
+        .link-login a:hover {
+            text-decoration: underline;
+        }

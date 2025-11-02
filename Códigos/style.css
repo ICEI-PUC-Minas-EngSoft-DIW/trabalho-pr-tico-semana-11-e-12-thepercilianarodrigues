@@ -1,0 +1,220 @@
+/* ======================================================== */
+/* ESTILOS GLOBAIS E SOBRESCRITAS DO BOOTSTRAP              */
+/* ======================================================== */
+body {
+    /* Usamos !important para garantir que nosso estilo vença o do Bootstrap */
+    font-family: cursive !important;
+    background-color: yellow !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+.cabecalho-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: pink;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 500px; 
+    height: 45px;
+}
+
+.campo-pesquisa {
+    width: 100%; 
+    height: 100%;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1rem;
+    font-family: cursive;
+    padding-left: 45px;  
+    padding-right: 45px; 
+}
+
+.botao-pesquisa {
+    position: absolute;
+    left: 18px; 
+    top: 50%; 
+    transform: translateY(-50%);
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>') no-repeat center;
+    background-size: 18px;
+    border: none;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.botao-limpar {
+    position: absolute;
+    right: 18px; 
+    top: 50%; 
+    transform: translateY(-50%);
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>') no-repeat center;
+    background-size: 18px;
+    border: none;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.botoes-login {
+    display: flex;
+    gap: 10px;
+}
+
+.botao {
+    padding: 8px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: black;
+}
+
+/* Conteúdo Principal */
+.conteudo-principal {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px 40px;
+}
+
+.container-principal {
+    flex-grow: 1;
+}
+
+/* Barra Lateral */
+.menu-lateral {
+    width: 250px;
+    background-color: white;
+    border: 1px solid white;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    align-self: flex-start;
+    flex-shrink: 0;
+}
+
+.lista-autores {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista-autores li {
+    padding: 10px 0;
+    margin: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* =============================================== */
+/* ESTILOS PARA OS COMPONENTES BOOTSTRAP           */
+/* =============================================== */
+
+/* Carrossel */
+#meuCarrossel .carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+/* Seção dos Cards */
+.secao-bombando {
+    margin-top: 40px;
+}
+
+.card {
+    border-radius: 8px !important;
+    border: 1px solid #ddd !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15) !important;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Botão do Card */
+.card .btn-primary {
+    background-color: #e83e8c !important;
+    border-color: #e83e8c !important;
+    font-weight: bold;
+}
+
+.card .btn-primary:hover {
+    background-color: #d1327b !important;
+    border-color: #d1327b !important;
+}
+
+/* Seção de Autoria */
+.container-autoria {
+    padding: 0 40px; 
+}
+.autoria-card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    max-width: 450px; 
+}
+
+.foto-autoria {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.autoria-info h4 {
+    color: #e83e8c;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.autoria-info p {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+/* Rodapé */
+.rodape {
+    text-align: center;
+    padding: 20px;
+    background-color: pink;
+    color: black;
+    margin-top: auto;
+}

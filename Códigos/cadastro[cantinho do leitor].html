@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-R">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+
+    <div class="container-cadastro">
+        <form id="form-cadastro" action="/caminho-do-backend" method="POST">
+            <h1>Crie sua Conta</h1>
+
+            <div class="grupo-form">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+            </div>
+
+            <div class="grupo-form">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required>
+            </div>
+
+            <div class="grupo-form">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Mínimo de 6 caracteres" required minlength="6">
+            </div>
+
+            <div class="grupo-form">
+                <label for="confirmar-senha">Confirmar Senha</label>
+                <input type="password" id="confirmar-senha" name="confirmar_senha" placeholder="Confirmar senha" required>
+            </div>
+
+            <button type="submit" class="btn-cadastrar">Cadastrar</button>
+
+            <p class="link-login">
+                Já tem uma conta? <a href="/login.html">Faça login</a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
