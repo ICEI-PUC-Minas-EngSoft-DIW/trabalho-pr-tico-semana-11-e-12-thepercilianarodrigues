@@ -23,6 +23,56 @@
     },
     {
       "id": "44fe"
+    },
+    {
+      "id": "5d12",
+      "nome": "Usuário Fictício",
+      "email": "teste123@teste.com",
+      "senha": "123456"
+    },
+    {
+      "id": "e2d1",
+      "nome": "Teste",
+      "email": "testeteste@teste.com",
+      "senha": "123456"
+    },
+    {
+      "id": "4101",
+      "nome": "Teste 2",
+      "email": "teste2@teste2.com",
+      "senha": "teste123"
+    },
+    {
+      "id": "52b5",
+      "nome": "Usuário Fictício",
+      "email": "teste3@teste3.com",
+      "senha": "123456"
+    }
+  ],
+  "livros": [
+    {
+      "id": "1",
+      "titulo": "O Princípe Cruel",
+      "autor": "Holly Black",
+      "resenha": "Uma história de fantasia imperdível, cheia de intrigas e magia.",
+      "descricaoCompleta": "Detalhes profundos sobre a narrativa...",
+      "imagemURL": "/Imagens/O príncipe cruel capa.jpeg"
+    },
+    {
+      "id": "2",
+      "titulo": "A Hipótese do Amor",
+      "autor": "Ali Hazelwood",
+      "resenha": "Comédia romântica no mundo acadêmico que virou febre!",
+      "descricaoCompleta": "Análise completa dos clichês...",
+      "imagemURL": "/Imagens/A hipotese do amor.jpeg"
+    },
+    {
+      "id": "3",
+      "titulo": "É Assim que Acaba",
+      "autor": "Colleen Hoover",
+      "resenha": "Um drama emocionante que aborda temas difíceis com sensibilidade.",
+      "descricaoCompleta": "Discussão sobre os temas sensíveis...",
+      "imagemURL": "/Imagens/É assim que acaba (Edição de colecionador).jpeg"
     }
   ]
 }
